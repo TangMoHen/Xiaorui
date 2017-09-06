@@ -73,4 +73,19 @@
 		<li><a href="e.html">41</a></li>
 	</ul>
 </body>
+<script type="text/javascript">
+	window.onload=function(){
+		$(window).scroll(function(){
+			if($(document).scrollTop()!=0){
+			sessionStorage.setItem("offsetTop", $(window).scrollTop());
+			//保存滚动位置
+			}
+		});
+		var offset = sessionStorage.getItem("offsetTop");
+		if(offset!=0){
+			$(window).scrollTop(offset)+"px";
+		}
+		//取出并滚动到上次保存位置
+	}
+</script>
 </html>
