@@ -1,0 +1,44 @@
+
+.nav{
+	position: fixed;
+	left: 0;
+	bottom: 0;
+	box-shadow:0px -10px 20px #eff8ff;
+}
+.nav div{
+	width: 2.39rem;
+	height: .82rem;
+	background: #FFF;
+	text-align: center;
+	float: left;
+	padding-top: .07rem;
+	box-sizing:border-box;
+}
+.nav div a img{
+	display: block;
+	margin: 0 auto .08rem;
+}
+.nav div a span{
+	display: block;
+	font-size: .2rem;
+	color: #000;
+}
+.nav .home a img{
+	width: .41rem;
+	height: .36rem;
+}
+.nav .address{
+	border-left: .01rem solid #d1d1d1;
+	border-right: .01rem solid #d1d1d1;
+}
+.nav .address a img{
+	width: .34rem;
+	height: .4rem;
+}
+.nav .contact-us a img{
+	width: .39rem;
+	height: .39rem;
+}
+.placeholder{
+	height: .82rem;
+}

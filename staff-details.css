@@ -1,0 +1,42 @@
+.content{
+	font-family: "微软雅黑";
+	text-indent: 2em;
+	font-size: .3rem;
+	padding: .3rem;
+	line-height: 1.3em;
+	font-weight: bold;
+}
+.content p{
+	color: #5c5c5c;
+}
+.content p b{
+	color: #000;
+}
+.personnel{
+	width: 7.18rem;
+	height: 4.5rem;
+}
+.swiper-wrapper .swiper-slide{
+	width: 2.87rem!important;
+	height: 4.14rem;
+	background: #EEE;
+	border-radius: 10px;
+	box-shadow:5px 5px 10px #e1e1e1, -5px 5px 10px #e1e1e1;
+	float: left;
+	overflow: hidden;
+}
+.swiper-wrapper .swiper-slide img{
+	width: 2.87rem;
+	height: 3.5rem;
+	display: block;
+}
+.swiper-wrapper .swiper-slide span{
+	width: 2.87rem;
+	height: .64rem;
+	line-height: .64rem;
+	font-weight: bold;
+	text-align: center;
+	font-size: .2rem;
+	display: block;
+	background: #FFF;
+}
