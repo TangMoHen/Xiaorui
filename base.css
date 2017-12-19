@@ -10,7 +10,7 @@ textarea { resize:none; } /*防止拖动*/
 img {border:0; vertical-align:middle; }  /*  去掉图片低测默认的3像素空白缝隙，或者用display：block也可以*/
 table { border-collapse:collapse; }
 body {
-	font-family: "宋体";
+	font-family: "黑体";
 	background: #FFF;
 }
 .clearfix:before,.clearfix:after {  /*清楚浮动*/

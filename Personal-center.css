@@ -1,0 +1,79 @@
+body{
+	background: #f9f9f9;
+}
+.portrait{
+	width: 7.18rem;
+	height: 3.54rem;
+	background: #FFF;
+	position: relative;
+}
+.portrait img{
+	width: 1.61rem;
+	height: 1.61rem;
+	position: absolute;
+	z-index: 99;
+	border: 3px solid #e8e8e8;
+	border-radius: 50%;
+	top: .56rem;
+	left: 2.85rem;
+	
+}
+.sign-out{
+	width: 7.18rem;
+	height: 1rem;
+	line-height: 1rem;
+	text-align: center;
+	font-size: .4rem;
+	color: #ff0000;
+	background: #FFF;
+}
+.basic ul{
+	background: #FFF;
+	margin-bottom: .28rem;
+}
+.basic ul li{
+	width: 7.18rem;
+	height: 1.07rem;
+	font-size: .3rem;
+	font-weight: bold;
+	background: url(../images/right-triangle2.png) no-repeat right;
+	background-position-x: 6.84rem;
+}
+.basic ul li a{
+	color: #000;
+	display: block;
+	width: 6.9rem;
+	height: .74rem;
+	padding-top: .33rem;
+	padding-left: .28rem;
+}
+.basic ul li a img{
+	margin-right: .28rem;
+}
+.basic ul li a span{
+	width: 3rem;
+	display: block;
+	margin-top: .06rem;
+}
+.basic ul .xinx a img{
+	width: .43rem;
+	height: .41rem;
+}
+.basic ul .xinx a span{
+	width: 3rem;
+	display: block;
+	margin-top: .06rem;
+}
+.basic ul .sheb a img{
+	width: .39rem;
+	height: .39rem;
+}
+.basic ul .zhengs a img{
+	width: .41rem;
+	height: .41rem;
+}
+.basic ul .huod a img{
+	width: .37rem;
+	height: .4rem;
+	margin-right: .33rem;
+}
